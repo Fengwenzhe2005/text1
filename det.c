@@ -20,7 +20,6 @@ int det(int m,int l){
 		if((r+c)%2==0) res+=a[l][i]*t;
 		else res-=a[l][i]*t;
 		c++;
-		\\if(c==m) r++,c=0; 
 		col[i]=0;
 	}	
 	return res;
